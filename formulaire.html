@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulaire</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <STyle>
+        .conteneur div{
+            height: 100px;
+            width: 100px;
+            background-color: red;
+            margin: 20px;
+        }
+        .conteneur{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+    </STyle>
+</head>
+<body>
+    <div class="container">
+        <h1 class="mb-5">Les formulaires</h1>
+        <div class="row">
+                <form>
+                    <div class="mb-3">
+                        <label for="email" class="for-label">Email</label>
+                        <input type="email" class="form-control"/>
+                    </div>
+                    <div class="mb-3">
+                        <label for="password" class="for-label">Password</label>
+                        <input type="password" class="form-control"/>
+                    </div>
+                    <div class="mb-3">
+                        <input type="checkbox" class="for-chek-input"/>
+                        <label for="remembreMe" class="for-label" id="rememberMe">remembreMe</label>
+                    </div>
+                </form>
+                <select multiple class="from-select">
+                    <option value="casablanca">casa</option>
+                    <option value="rabat">rabat</option>
+                    <option value="tanger">tanger</option>
+                </select>
+                <textarea class="form-control" placeholder="message..."></textarea>
+                <br><br>
+                <div class="from-check from-switch">
+                    <input type="checkbox" class="from-check-input"/>
+                </div>  
+                <br><br>
+                <div class="from-check from-check-inline">
+                   <input type="checkbox" value="check1" id="check1" class="from-check from-check-inline"/>
+                   <label class="from-label" for="check1"> choix1 </label>
+                </div> 
+                <div class="from-check from-check-inline">
+                   <input type="checkbox" value="check2" id="check2" class="from-check from-check-inline"/>
+                   <label class="from-label" for="check2"> choix2 </label>
+                </div>  
+                <div class="from-check from-check-inline">
+                   <input type="checkbox" value="check3" id="check3" class="from-check from-check-inline"/>
+                   <label class="from-label" for="check3"> choix2 </label>
+                </div>
+
+    </div>
+    <div class="conteneur">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>1</div>
+    </div>
+</body>
+</html>

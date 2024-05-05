@@ -1,0 +1,36 @@
+/* .content{
+    display: flex;
+} */
+
+.content ul{
+    list-style: none;
+    
+}
+.content ul li {
+    display: flex ;
+    
+
+}
+.content i{
+    padding-top: 5px;
+    padding-right: 5px;
+}
+
+.paragraphe{
+    font-weight: bold;
+}
+
+.container{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+   
+} 
+
+.inscrire{
+    color:rgb(122, 116, 116)
+}
+
+button{
+    width: 250px; 
+}
